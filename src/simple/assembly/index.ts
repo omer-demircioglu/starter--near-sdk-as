@@ -1,15 +1,15 @@
 import { storage, Context } from "near-sdk-as"
 
-// return the string 'hello world'
-export function helloWorld(): string {
-  return 'hello Omer'
+// Practice I - Task 2'
+export function helloWorld(name: string): string {
+  return 'hello ' + name
 }
 
 // read the given key from account (contract) storage
 export function read(key: string): string {
   if (storage.hasKey(key)) {
     return `✅ Key [ ${key} ] has value [ ${storage.getString(key)!} ]`
-  } else {
+  } se {
     return `🚫 Key [ ${key} ] not found in storage. ( ${storageReport()} )`
   }
 }
