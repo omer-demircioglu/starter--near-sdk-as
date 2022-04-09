@@ -9,7 +9,7 @@ export function helloWorld(name: string): string {
 export function read(key: string): string {
   if (storage.hasKey(key)) {
     return `✅ Key [ ${key} ] has value [ ${storage.getString(key)!} ]`
-  } se {
+  }  {
     return `🚫 Key [ ${key} ] not found in storage. ( ${storageReport()} )`
   }
 }
