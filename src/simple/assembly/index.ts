@@ -1,6 +1,6 @@
 import { storage, Context } from "near-sdk-as"
 
-// Practice I - Task 3'
+// Practice-I - Task-3 
 export function helloWorld(names: Array<string>): string {
   return names.map<string>(name => 'hello ' + name).join(` `)
 }
