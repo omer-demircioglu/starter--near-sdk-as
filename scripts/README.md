@@ -24,8 +24,8 @@ It uses the following setup:
   export OWNER=           # any account you control
 
   # for example
-  # export CONTRACT=dev-1615190770786-2702449
-  # export OWNER=sherif.testnet
+  # export CONTRACT=dev-1649708239803-29680477349615
+  # export OWNER=omerdemircioglu.testnet
   ```
 
 - Commands
